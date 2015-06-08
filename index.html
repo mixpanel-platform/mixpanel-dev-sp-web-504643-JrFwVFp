@@ -89,16 +89,50 @@
             ['Bill Mark Paid Started'],
             ['Bill Mark Paid Completed'],
             ['Payment Scheduled New'],['From Account Type','Bill Details Added','Memo Added']],
-            ['New Bill Pay Confirmed'], ['From Account Type','Memo Added']]
+            ['New Bill Pay Confirmed'], ['From Account Type','Memo Added']],
             ['New Bill Pay Canceled'],
-            ['New Bill Pay Success'], ['From Account Type','Memo Added']]
+            ['New Bill Pay Success'], ['From Account Type','Memo Added']],
             ['New Bill Pay Failed'],['Reason']]
-            ['Payment Canceled'],['Account Type'],
-            ['Payment Cancelled Failed'], ['Error Code','Error Message']],
-            ['Void Payment Attempted'], 
-            ['Void Payment Attempted Failed'],
-            ['Offer Created'],
-            ['Personal Info Back Submit'],
+            ['Pay Bill Started'],['Source']],
+            ['Pay Bill Submit'], 
+            ['Pay Bill Success'], 
+            ['Pay Bill Cancel'],
+            ['Pay Bill Delete'],
+            ['Order Checkbook Submitted'],
+            ['Order Checkbook'],['Order Placed']],
+            ['Activate Checkbook Submitted'], 
+            ['Activate Checkbook'],['Checkbook activation'],
+            ['Deposit Check Started'], ['Source']],
+            ['Front Photo Complete'],['Status']],
+            ['Back Photo Complete'],['Status']],
+            ['Deposit Check Submit'],['Account Type']],
+            ['Deposit Check Cancel'],['Source']],
+            ['Deposit Check Delete'],['Source']],
+            ['Return to Deposits'],['Source'],
+            ['Deposit Check Success'],
+            ['Change Username'],
+            ['Change Password'],
+            ['Change Username Submit'],
+            ['Change Password Submit'],
+            ['Activate Debit Card'],
+            ['Activate Debit Card Submit'],
+            ['Activate Checkbook'],
+            ['Activate Checkbook Submit'],
+            ['Order Checks'],
+            ['Order Checks Submit'],
+            ['Call Click'],
+            ['Schedule',['events','month','year']],
+            ['Date Click',['events','month','year']],
+            ['Schedule Scroll'],['events','month','year']],
+            ['Session End',['Time in Session','End Method']]
+            ]
+            
+            
+            
+            
+            
+            
+            
             ]
             $(document).ready(function(){
                 $.each(spec, function(i, eventInfo){
